@@ -4,8 +4,8 @@ import TeamListRow from './TeamListRow';
 const TeamList = ({teams}) => {
     return (
         <div>
-            <h1>Teams</h1>
-            <table className="table table-striped table-hover">
+            <h2>Teams</h2>
+            <table className="table table-hover">
             <thead className="thead-light">
                 <tr>
                     <th>Name</th>

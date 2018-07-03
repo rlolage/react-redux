@@ -4,9 +4,9 @@ class AboutPage extends React.Component {
     render() {
         return (
             <div className="jumbotron">
-                <h1>About USA Cricket</h1>
+                <h2>About Cric Nation</h2>
                 <br/>
-                <p>USA Cricket is the home of all the cricket matches happening in the USA</p>
+                <p>Cric Nation is the home of all the cricket matches happening around the world</p>
                 <ul>
                     <li>Swades Premier League</li>
                     <li>Tennis Ball Cricket Association (TCA)</li>

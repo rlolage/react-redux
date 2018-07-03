@@ -5,9 +5,9 @@ class HomePage extends React.Component {
     render() {
         return (
             <div className="jumbotron">
-                <h1>USA Cricket</h1>
-                <p>Home of the USA cricket team and fans</p>
-                <Link to="about" className="btn btn-light btn-lg">Learn More</Link>
+                <h2>Cric Nation</h2>
+                <p>Home of cricket teams and fans</p>
+                <Link to="about" className="btn btn-info btn-lg">Learn More</Link>
             </div>
         );
     }       
