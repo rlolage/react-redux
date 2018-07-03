@@ -1,1 +1,2 @@
 export const CREATE_TEAM = "CREATE_TEAM";
+export const LOAD_TEAMS_SUCCESS = "LOAD_TEAMS_SUCCESS";

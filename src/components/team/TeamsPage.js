@@ -2,6 +2,7 @@ import React, {PropTypes} from 'react';
 import {connect} from 'react-redux';
 import * as teamActions from '../../actions/teamActions';
 import {bindActionCreators} from 'redux';
+import TeamList from './TeamList';
 
 class TeamsPage extends React.Component {
     
@@ -30,8 +31,7 @@ class TeamsPage extends React.Component {
     render() {
         return (
             <div className="jumbotron">
-                <h1>Teams</h1>
-                {this.props.teams.map(this.teamRow)}
+                <TeamList teams={this.props.teams}/>
                 <h2>Add a Team</h2>
                 <input 
                     type="text" 
